@@ -1,10 +1,12 @@
-### overal
+## overal
 You can practice rotation and key pressing by this environment.
 
+> this is my overal layout. spcified keys and colors are also mentioned in the script. 
+
 ### colors
-- blue: ability
-- green: movment ['w', 's', 'd', 'a']
-- red: not-defined-keys
+- BLUE => ability
+- GREEN => movment and jump ['w', 's', 'd', 'a', 'space']
+- RED => not-defined-keys
 
 ### functions
 - 'esc' to exit
