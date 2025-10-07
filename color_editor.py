@@ -27,6 +27,12 @@ def on_key_press(event):
 	else:
 		print(Fore.RED + key + Style.RESET_ALL, end='\n', flush=True)
 
-print("start!\n'esc' to exit\n")
-keyboard.on_press(on_key_press)
-keyboard.wait('esc')
+if __name__ == "__main__":
+	print(f"""'esc' -> exit
+{Fore.BLUE}ABILITY = 1, 2, 3, 4, e, f, t, r, g, y, q, 5
+{Fore.GREEN}MOVMENT & JUMP = W, A, S, D, 'space'
+{Fore.RED}NOT defined keys
+		""")
+
+	keyboard.on_press(on_key_press)
+	keyboard.wait('esc')
